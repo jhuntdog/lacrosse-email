@@ -40,9 +40,15 @@ body, #bodyTable, #backgroundTable{
   /*border:1px solid #BBBBBB;*/
 }
 
+.headerRowSuperContent{
+  padding-top:10px;
+}
 .contentRow {
   border-bottom:6px solid #FFFFFF;
-  margin-top:10px;
+}
+
+.contenRowContent{
+  padding-top: 10px;
   padding-bottom:10px;
 }
 
@@ -85,8 +91,8 @@ body, #bodyTable, #backgroundTable{
 
 .headerDetails{
   color: #FFFFFF !important;
-  font-size: 14px;
-  letter-spacing:-0.4px;
+  font-size: 13px;
+  letter-spacing:-0.5px;
   text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
   text-transform: uppercase;
 }
@@ -276,7 +282,7 @@ h4{
 
 
 #templateFooter{
-  background-color:#F4F4F4;
+  background-color:#FFFFFF;
   border-top:1px solid #FFFFFF;
 }
 
@@ -286,7 +292,7 @@ h4{
   font-family:Helvetica;
   font-size:10px;
   line-height:150%;
-  padding-top:20px;
+  padding-top:10px;
   padding-right:20px;
   padding-bottom:20px;
   padding-left:20px;
@@ -309,6 +315,11 @@ h4{
 
   /* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
   #backgroundCell{padding:10px !important;}
+
+  img {
+    max-width:600px !important;
+    width:100% !important;
+  }
 
   /* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
 
