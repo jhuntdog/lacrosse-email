@@ -1,0 +1,381 @@
+/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+
+#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+#backgroundTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;}
+
+/* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+body{margin:0; padding:0;}
+table{border-collapse:collapse !important;}
+body, #bodyTable, #backgroundCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;-ms-interpolation-mode: bicubic;}
+a img {border:none;}
+.image_fix {display:block;}
+
+/* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+
+/* ========== Page Styles ========== */
+
+#backgroundCell{padding:20px;}
+
+#bodyContainer{width:600px;}
+
+body, #bodyTable, #backgroundTable{
+  background-color:#FFFFFF;
+}
+
+
+#backgroundCell{
+  /*border-top:4px solid #BBBBBB;*/
+}
+
+
+#bodyContainer{
+  /*border:1px solid #BBBBBB;*/
+}
+
+.contentRow {
+  border-bottom:6px solid #FFFFFF;
+  margin-top:10px;
+  padding-bottom:10px;
+}
+
+.footingRow {
+  margin-top:10px;
+  margin-bottom:10px;
+  padding-bottom:10px;
+}
+
+.usaMade{
+  text-transform: uppercase;
+}
+
+.blueSeparator{
+  color: #000099;
+  font-weight: bold;
+}
+
+.headerLead{
+  color: #FF0000 !important;
+  text-align: center;
+  font-size: 16px;
+}
+
+#headerTitleRow {
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+}
+.titleLead{
+  color: #FFFFFF !important;
+  font-size:16px;
+  text-transform: uppercase;
+}
+
+.titleMain{
+  color:#FFFFFF !important;
+  font-size:32px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.headerDetails{
+  color: #FFFFFF !important;
+  font-size: 14px;
+  letter-spacing:-0.4px;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+  text-transform: uppercase;
+}
+
+#fbBodyCell{ padding: 5px; }
+#fbSectionContainer{
+  background-color: #01137B;
+  border: 2px solid #ffffff;
+  border-radius: 12px;
+}
+#partyRow { color: #ffffff; }
+#partyRow a:link, #partyRow a:visited, #partyRow a .yshortcuts {
+  color: #ffffff;
+  font-weight: normal;
+  text-decoration: none;
+}
+.socialConnect a:link, .socialConnect a:visited, .socialConnect a .yshortcuts {
+  color: #ffffff;
+  font-weight: normal;
+  text-decoration: none;
+}
+#margaritaBox { color: #ffffff; }
+
+h1{
+  color:#202020 !important;
+  display:block;
+  font-family:Helvetica;
+  font-size:26px;
+  font-style:normal;
+  font-weight:bold;
+  line-height:100%;
+  letter-spacing:normal;
+  margin-top:0;
+  margin-right:0;
+  margin-bottom:10px;
+  margin-left:0;
+  text-align:left;
+}
+
+
+h2{
+  color:#404040 !important;
+  display:block;
+  font-family:Helvetica;
+  font-size:20px;
+  font-style:normal;
+  font-weight:bold;
+  line-height:100%;
+  letter-spacing:normal;
+  margin-top:0;
+  margin-right:0;
+  margin-bottom:10px;
+  margin-left:0;
+  text-align:left;
+}
+
+
+h3{
+  color:#606060 !important;
+  display:block;
+  font-family:Helvetica;
+  font-size:16px;
+  font-style:italic;
+  font-weight:normal;
+  line-height:100%;
+  letter-spacing:normal;
+  margin-top:0;
+  margin-right:0;
+  margin-bottom:10px;
+  margin-left:0;
+  text-align:left;
+}
+
+
+h4{
+  color:#808080 !important;
+  display:block;
+  font-family:Helvetica;
+  font-size:14px;
+  font-style:italic;
+  font-weight:normal;
+  line-height:100%;
+  letter-spacing:normal;
+  margin-top:0;
+  margin-right:0;
+  margin-bottom:10px;
+  margin-left:0;
+  text-align:left;
+}
+
+/* ========== Header Styles ========== */
+
+
+#templatePreheader{
+  background-color:#FFFFFF;
+  /*border-bottom:1px solid #CCCCCC;*/
+}
+
+
+.preheaderContent{
+  color:#808080;
+  font-family:Helvetica;
+  font-size:10px;
+  line-height:125%;
+  text-align:left;
+}
+
+
+.preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
+  color:#606060;
+  font-weight:normal;
+  text-decoration:underline;
+}
+
+
+#templateHeader{
+  background-color:#F4F4F4;
+  border-top:1px solid #FFFFFF;
+  border-bottom:1px solid #CCCCCC;
+}
+
+
+.headerContent{
+  color:#505050;
+  font-family:Helvetica;
+  font-size:20px;
+  font-weight:bold;
+  line-height:100%;
+  padding-top:0;
+  padding-right:0;
+  padding-bottom:0;
+  padding-left:0;
+  text-align:left;
+  vertical-align:middle;
+}
+
+
+.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+  color:#EB4102;
+  font-weight:normal;
+  text-decoration:underline;
+}
+
+#headerImage{
+  height:auto;
+  max-width:600px;
+}
+
+/* ========== Body Styles ========== */
+
+
+#templateBodyWrapper{
+  background-color:#D5D4A9;
+  border-radius: 14px;
+  padding: 10px;
+}
+
+.templateBodyWrapperContent{
+  padding: 20px;
+}
+
+
+
+
+.bodyContent{
+  color:#505050;
+  font-family:Helvetica;
+  font-size:14px;
+  line-height:150%;
+  text-align:left;
+}
+
+
+.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
+  color:#EB4102;
+  font-weight:normal;
+  text-decoration:underline;
+}
+
+.bodyContent img{
+  display:inline;
+  height:auto;
+  max-width:560px;
+}
+
+/* ========== Footer Styles ========== */
+
+
+#templateFooter{
+  background-color:#F4F4F4;
+  border-top:1px solid #FFFFFF;
+}
+
+
+.footerContent{
+  color:#808080;
+  font-family:Helvetica;
+  font-size:10px;
+  line-height:150%;
+  padding-top:20px;
+  padding-right:20px;
+  padding-bottom:20px;
+  padding-left:20px;
+  text-align:left;
+}
+
+
+.footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{
+  color:#606060;
+  font-weight:normal;
+  text-decoration:underline;
+}
+
+/* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
+
+@media only screen and (max-width: 480px){
+  /* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
+  body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+  body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+
+  /* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
+  #backgroundCell{padding:10px !important;}
+
+  /* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
+
+  /* ======== Page Styles ======== */
+
+
+  #bodyContainer{
+    max-width:600px !important;
+    width:100% !important;
+  }
+
+
+  h1{
+    font-size:24px !important;
+    line-height:100% !important;
+  }
+
+
+  h2{
+    font-size:20px !important;
+    line-height:100% !important;
+  }
+
+
+  h3{
+    font-size:18px !important;
+    line-height:100% !important;
+  }
+
+
+  h4{
+    font-size:16px !important;
+    line-height:100% !important;
+  }
+
+  /* ======== Header Styles ======== */
+
+  #templatePreheader{display:none !important;} /* Hide the template preheader to save space */
+
+
+  #headerImage{
+    height:auto !important;
+    max-width:600px !important;
+    width:100% !important;
+  }
+
+
+  .headerContent{
+    font-size:20px !important;
+    line-height:125% !important;
+  }
+
+  /* ======== Body Styles ======== */
+
+
+  .bodyContent{
+    font-size:18px !important;
+    line-height:125% !important;
+  }
+
+  /* ======== Footer Styles ======== */
+
+
+  .footerContent{
+    font-size:14px !important;
+    line-height:115% !important;
+  }
+
+  .footerContent a{display:block !important;} /* Place footer social and utility links on their own lines, for easier access */
+}
