@@ -214,28 +214,6 @@ h4{
   border-bottom:1px solid #CCCCCC;
 }
 
-
-.headerContent{
-  color:#505050;
-  font-family:Helvetica;
-  font-size:20px;
-  font-weight:bold;
-  line-height:100%;
-  padding-top:0;
-  padding-right:0;
-  padding-bottom:0;
-  padding-left:0;
-  text-align:left;
-  vertical-align:middle;
-}
-
-
-.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
-  color:#EB4102;
-  font-weight:normal;
-  text-decoration:underline;
-}
-
 #headerImage{
   height:auto;
   max-width:600px;
@@ -359,7 +337,6 @@ h4{
 
   #templatePreheader{display:none !important;} /* Hide the template preheader to save space */
 
-
   #headerImage{
     height:auto !important;
     max-width:600px !important;
@@ -372,12 +349,36 @@ h4{
     line-height:125% !important;
   }
 
+  .headerLead{
+    font-size: 18px !important;
+  }
+
+  .titleLead {
+    font-size: 13px !important;
+  }
+
+  .titleMain {
+    font-size: 28px !important;
+  }
+
+  .headerDetails {
+    font-size: 13px !important;
+  }
+
   /* ======== Body Styles ======== */
 
 
   .bodyContent{
     font-size:18px !important;
     line-height:125% !important;
+  }
+
+  .socialConnect{
+    font-size: 10px !important;
+    line-height: 100% !important;
+  }
+  .socialConnect a, socialConnect a:link {
+    font-size: 10px !important;
   }
 
   /* ======== Footer Styles ======== */
@@ -389,4 +390,38 @@ h4{
   }
 
   .footerContent a{display:block !important;} /* Place footer social and utility links on their own lines, for easier access */
+}
+
+@media only screen and (max-device-width: 480px) {
+
+  a[href^="tel"], a[href^="sms"] {
+    text-decoration: none;
+    color: black;
+    pointer-events: none;
+    cursor: default;
+  }
+
+.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+    text-decoration: default;
+    color: #000099 !important;
+    pointer-events: auto;
+    cursor: default;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+  a[href^="tel"], a[href^="sms"] {
+    text-decoration: none;
+    color: black;
+    pointer-events: none;
+    cursor: default;
+  }
+
+  .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+    text-decoration: default;
+    color: #000099 !important;
+    pointer-events: auto;
+    cursor: default;
+  }
 }
